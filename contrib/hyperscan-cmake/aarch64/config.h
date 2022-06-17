@@ -13,13 +13,13 @@
 /* #undef ARCH_IA32 */
 
 /* "Define if building for EM64T" */
-#define ARCH_X86_64
+/* #undef ARCH_X86_64 */
 
 /* "Define if building for ARM32" */
 /* #undef ARCH_ARM32 */
 
 /* "Define if building for AARCH64" */
-/* #undef ARCH_AARCH64 */
+#define ARCH_AARCH64
 
 /* "Define if building for PPC64EL" */
 /* #undef ARCH_PPC64EL */
@@ -61,10 +61,10 @@
 #define HAVE_CXX_BUILTIN_ASSUME_ALIGNED
 
 /* C++ compiler has x86intrin.h */
-#define HAVE_CXX_X86INTRIN_H
+/* #undef HAVE_CXX_X86INTRIN_H */
 
 /* C compiler has x86intrin.h */
-#define HAVE_C_X86INTRIN_H
+/* #undef HAVE_C_X86INTRIN_H */
 
 /* C++ compiler has intrin.h */
 /* #undef HAVE_CXX_INTRIN_H */
@@ -73,7 +73,7 @@
 /* #undef HAVE_C_INTRIN_H */
 
 /* C compiler has arm_neon.h */
-/* #undef HAVE_C_ARM_NEON_H */
+#define HAVE_C_ARM_NEON_H
 
 /* C compiler has arm_sve.h */
 /* #undef HAVE_C_ARM_SVE_H */
